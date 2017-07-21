@@ -1,17 +1,14 @@
-# Spanish NLP Workshop
-A tutorial about NLP technologies available for the Spanish language
+# Ejemplo de NLP en español
+
+<img src="https://camo.githubusercontent.com/015b87ebc1ecffe10832e34ea8a44ce1af0cd35b/68747470733a2f2f63646e2e7261776769742e636f6d2f706c61792d776974682d646f636b65722f737461636b732f63666632323433382f6173736574732f696d616765732f627574746f6e2e706e67" alt="Try in PWD" data-canonical-src="https://cdn.rawgit.com/play-with-docker/stacks/cff22438/assets/images/button.png" style="max-width:100%;">
+
+Una versión implementada con docker del trabajo de Julian Eisenschlos. Original: https://github.com/eisenjulian/spanish-nlp-workshop
+
+Un ejemplo sobre tecnologías disponible sobre procesamiento de lenguaje natural para la lengua hispana.
 
 ### Setup
- * Install [Anaconda](https://www.continuum.io/downloads)
- * Create a python 3 environment and start a notebook server
- ```bash
- $ git clone https://github.com/eisenjulian/spanish-nlp-workshop.git
- $ cd spanish-nlp-workshop
- $ conda config --add channels conda-forge
- $ conda create -n nlp python=3 gensim spacy matplotlib scikit-learn pandas ipykernel
- $ activate nlp
- $ pip install bs4
- $ python -m ipykernel install --user
- $ python -m spacy download es
- $ jupyter notebook
+```
+ * Click en "Try in PWD"
+ * Copiar el token
+ * Click en el link "8888"
  ```
