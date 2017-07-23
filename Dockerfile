@@ -15,6 +15,10 @@ RUN /bin/bash -c "source activate nlp; python3 -m ipykernel install --user"
 
 COPY spanish-nlp.ipynb /opt/notebooks
 COPY start.sh /start.sh
+
+RUN mkdir /root/.jupyter
+COPY jupyter_notebook_config.py /root/.jupyter
+
 EXPOSE 8888
 
 CMD ["/bin/bash","/start.sh"]
